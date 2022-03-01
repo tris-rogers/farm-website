@@ -1,0 +1,443 @@
+:root {
+  --brand-color: #68af22;
+  --analogous-color: #23af3a;
+  --light-color: #eeeeee;
+  --grey-color: #ddd;
+  --dark-color: #393e46;
+  --blue-color: rgb(84, 223, 238);
+  --gap: 10rem;
+
+  --heading-font: "Montserrat", sans-serif;
+  --main-font: "Ubuntu", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  background-color: var(--light-color);
+  background-color: #eeeeee;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+
+h1 {
+  font-size: 15vw;
+}
+
+h2 {
+  font-size: 13vw;
+}
+
+p {
+  line-height: 2;
+}
+
+iframe {
+  display: block;
+  margin: 2rem auto;
+  border: 2px solid var(--blue-color);
+  border-radius: 50px;
+  box-shadow: -10px 10px var(--brand-color);
+  width: 80vw;
+  height: 80vw;
+}
+
+.btn {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-size: 2rem;
+  border-radius: 5px;
+  border: 2px solid var(--dark-color);
+  transition: all 300ms;
+  width: 100%;
+}
+.btn:hover {
+  background-color: var(--blue-color);
+  color: var(--dark-color);
+  border: 2px solid var(--dark-color);
+  box-shadow: -5px 5px var(--dark-color);
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+/* .navbar-brand {
+  font-size: 1.8rem;
+  font-family: var(--main-font);
+  color: #4fdf4f;
+} */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  font-family: var(--main-font);
+}
+
+.navbar-links-mobile {
+  display: none;
+  flex-flow: column nowrap;
+  width: 100%;
+  gap: 2rem;
+}
+
+.navbar-toggler-icon {
+  display: block;
+}
+
+.hamburger-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.hamburger-bar {
+  width: 80%;
+  height: 10%;
+  border-radius: 50px;
+  background-color: var(--light-color);
+  pointer-events: none;
+  transition: transform 1s;
+}
+
+.hamburger-container:hover {
+  background-color: var(--blue-color);
+  box-shadow: -5px 5px var(--brand-color);
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--light-color);
+  background-color: var(--blue-color);
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  padding: 1rem;
+}
+
+.title-container {
+  width: 100%;
+  margin: 5rem 0;
+}
+
+.title {
+  font-family: var(--heading-font);
+  color: var(--dark-color);
+}
+
+.title-container h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.title-container h2 {
+  font-weight: 500;
+}
+
+.image-container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 50vh;
+}
+
+.image-collage {
+  display: flex;
+  height: 30vh;
+  overflow-y: hidden;
+}
+.image-collage img {
+  width: 25%;
+}
+
+.card {
+  /* display: flex; */
+  /* flex-flow: column; */
+  max-width: 100%;
+  gap: var(--gap);
+  justify-content: space-between;
+  align-items: center;
+
+  border: 2px solid var(--brand-color);
+  background-color: white;
+
+  border-radius: 5px;
+  box-shadow: -5px 5px var(--brand-color);
+
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card-title {
+  color: var(--brand-color);
+  text-align: center;
+}
+
+.card-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin: 2rem 0;
+  color: var(--dark-color);
+  text-align: justify;
+}
+.card-img {
+  width: 100%;
+  margin: auto;
+}
+
+.card-img img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.light-section {
+  background-color: var(--light-color);
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+
+.colored-section {
+  background-color: var(--brand-color);
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  padding: 2rem 0;
+}
+.colored-section .card {
+  border: 2px solid white;
+  box-shadow: -5px 5px var(--blue-color);
+  background-color: white;
+}
+
+.header-image {
+  background-color: var(--brand-color);
+  padding: 2rem 0;
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-div {
+  display: block;
+  margin: auto;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: var(--light-color);
+}
+.title-div h1 {
+  text-align: center;
+}
+
+.contact-card-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.contact-card {
+  display: inline-block;
+  background-color: var(--blue-color);
+  box-shadow: -10px 10px var(--brand-color);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  color: var(--light-color);
+}
+
+.contact-form {
+  width: 80%;
+  margin: auto;
+}
+.contact-form h2 {
+  text-align: center;
+}
+.contact-form * {
+  display: block;
+  margin: 2rem auto;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.contact-form .btn {
+  width: 100%;
+}
+
+footer {
+  color: var(--grey-color);
+  background-color: var(--brand-color);
+  text-align: center;
+  padding: 2rem;
+  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  iframe {
+    max-width: 40rem;
+    max-height: 40rem;
+  }
+
+  .btn {
+    width: auto;
+  }
+
+  nav {
+    align-items: center;
+    padding: 0.5rem var(--gap);
+  }
+
+  /* .navbar-links {
+    display: block;
+  } */
+  .navbar-toggler-icon {
+    display: none;
+  }
+
+  header {
+    flex-flow: row;
+    padding: 0;
+  }
+
+  .title-container {
+    width: 50%;
+  }
+
+  .image-container {
+    max-width: 50%;
+    max-height: 100%;
+  }
+
+ 
+
+  .product-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .card-produce {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    margin: 2rem;
+  }
+
+  .header-image {
+    height: 100vh;
+  }
+
+  .contact-card-container {
+    flex-flow: row;
+  }
+
+  .title-div {
+    width: 50%;
+    margin: 10% auto;
+  }
+
+  .contact-form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  header {
+    flex-flow: row;
+    padding: 0 var(--gap);
+  }
+
+  .card {
+    display: flex;
+    flex-flow: row;
+    margin: var(--gap);
+    padding: 2rem;
+    gap: 1rem;
+  }
+  .card-info {
+    width: 50%;
+  }
+  .card-img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .card {
+    gap: var(--gap);
+  }
+}
+
+.topBar {
+  position: relative;
+  animation: topBarAni 500ms forwards;
+}
+.middleBar {
+  animation: middleBarAni 500ms forwards;
+}
+.bottomBar {
+  position: relative;
+  animation: bottomBarAni 500ms forwards;
+}
+
+@keyframes topBarAni {
+  0% {
+    top: 1%;
+  }
+  60% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    top: 33%;
+    transform: rotate(45deg);
+  }
+}
+@keyframes middleBarAni {
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bottomBarAni {
+  0% {
+    bottom: 1%;
+  }
+  60% {
+    transform: rotate(45deg);
+  }
+  100% {
+    bottom: 33%;
+    transform: rotate(-45deg);
+  }
+}

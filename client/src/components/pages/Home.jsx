@@ -10,7 +10,6 @@ import harvestDesktop from "../../images/desktop/harvest.png";
 import { Link } from "react-router-dom";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
-import Images from "./Images";
 
 function Home() {
   const linkStyle = {
@@ -22,7 +21,6 @@ function Home() {
   return (
     <div>
       <Header />
-     
 
       <section className="light-section">
         <CardStyle

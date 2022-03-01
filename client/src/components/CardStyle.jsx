@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import lettuceBowl from "../images/original/lettuce-bowl.png";
+
 
 function CardStyle(props) {
   return (

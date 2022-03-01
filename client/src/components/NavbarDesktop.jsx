@@ -6,8 +6,7 @@ function NavbarMobile() {
   return (
     <nav>
       <span className="navbar-brand">
-        <img src={logo} style={{width: "150px"}}/>
-        {/* Gnagara Pty Ltd */}
+        <img src={logo} style={{ width: "150px" }} alt="logo" />
       </span>
 
       <span className="navbar-links">

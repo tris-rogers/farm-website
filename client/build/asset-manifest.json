@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1f15e9c0.js",
+    "static/media/landscape.png": "/static/media/landscape.176eaacfa8acedc536f6.png",
+    "static/media/harvest.png": "/static/media/harvest.203f94a717f6d92572e4.png",
+    "static/media/lettuce-bowl.png": "/static/media/lettuce-bowl.754f008e4184f815963e.png",
+    "static/media/lettucedesktop.png": "/static/media/lettucedesktop.9792f47e016435635f36.png",
+    "static/media/grow.png": "/static/media/grow.41643d4d1c89e0cde294.png",
+    "static/media/lettuce.png": "/static/media/lettuce.92b5fcf61f3cc490e2cf.png",
+    "static/media/logo.png": "/static/media/logo.5cefbb4977926835c41b.png",
+    "index.html": "/index.html",
+    "main.1f15e9c0.js.map": "/static/js/main.1f15e9c0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1f15e9c0.js"
+  ]
+}

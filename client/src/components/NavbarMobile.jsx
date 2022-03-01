@@ -23,7 +23,7 @@ function NavbarMobile() {
   return (
     <nav style={navStyle}>
       <span className="navbar-brand">
-        <img src={logo} style={{width: "100px"}}/>
+        <img src={logo} style={{ width: "100px" }} alt="logo" />
       </span>
 
       <span className="navbar-toggler-icon">
